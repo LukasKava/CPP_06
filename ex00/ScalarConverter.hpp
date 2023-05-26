@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ScalarConverter.hpp                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lkavalia <lkavalia@student.42wolfsburg.de> +#+  +:+       +#+        */
+/*   By: lkavalia <lkavalia@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/25 14:10:23 by lkavalia          #+#    #+#             */
-/*   Updated: 2023/05/25 19:31:11 by lkavalia         ###   ########.fr       */
+/*   Updated: 2023/05/26 21:09:37 by lkavalia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 
 # include	<stdlib.h>
 # include	<cctype>
+# include	<cstdlib>
+# include	<math.h>
+# include	<cfloat>
+# include	<climits>
+# include	<iomanip>
+# include	<cerrno>
 # include	<iostream>
 # include	<string>
 #include	<locale> 
@@ -38,7 +44,6 @@ class	ScalarConverter
 # define	FLOAT	3
 # define	DOUBLE	4
 # define	PSEUDO	5
-# define	NON		-1
 # define	ERROR	-2
 
 # define	BLANK "\033[0m"
