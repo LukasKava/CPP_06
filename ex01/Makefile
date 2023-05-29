@@ -6,7 +6,7 @@
 #    By: lkavalia <lkavalia@student.42wolfsburg.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/28 16:22:27 by lkavalia          #+#    #+#              #
-#    Updated: 2023/05/28 20:38:33 by lkavalia         ###   ########.fr        #
+#    Updated: 2023/05/29 15:31:56 by lkavalia         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = serial
 
 CC = g++
 
-CPP_FLAGS =  -std=gnu++11 -Wall -Werror -Wextra -fsanitize=address #-std=c++98 -fsanitize=address
+CPP_FLAGS =  -std=gnu++11 -Wall -Werror -Wextra -fsanitize=address #-std=c++98 
 
 SRC = main.cpp \
 		Serializer.cpp
